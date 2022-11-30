@@ -3,44 +3,35 @@
   <head>
     <meta name="description" content="this website is ___">
     <meta name="author" content="Olivia Kim">
-    <title>Guide to Los Angeles</title>
+    <meta charset="utf-8">
+    <title>Jim and Pam Fanpage</title>
     <style>
-      #wave {
-  position: relative;
-  height: 70px;
-  width: 600px;
-  background: #e0efe3;
-}
-#wave:before {
-  content: "";
-  display: block;
-  position: absolute;
-  border-radius: 100% 50%;
-  width: 340px;
-  height: 80px;
-  background-color: white;
-  right: -5px;
-  top: 40px;
-}
-#wave:after {
-  content: "";
-  display: block;
-  position: absolute;
-  border-radius: 100% 50%;
-  width: 300px;
-  height: 70px;
-  background-color: #e0efe3;
-  left: 0;
-  top: 27px;
-}
+      .header {
+        padding: 1px;
+        font-size: 25px;
+        color: black;
+        text-align: center;
+      }
       
+      .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-items: center;
+      }
       
-      
+      .box: {
+        width: 100px;
+        height: 100px;
+        background-color: black;
+        border: white;
+      }
     </style>
   </head>
   
-  <body style="background-color: rgb(167, 195, 255);">
-    <div id="wave"></div>
+  <body style="background-color: black;">
+    <div class="header">
+      <h1>Guide to Los Angeles</h1>
+    </div>
   
   
   
